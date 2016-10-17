@@ -14,6 +14,7 @@
 		7DD0854F1DB44043002D3E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DD0854D1DB44043002D3E28 /* LaunchScreen.storyboard */; };
 		7DD085571DB44A97002D3E28 /* Minecrafter_3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD085561DB44A97002D3E28 /* Minecrafter_3.ttf */; };
 		7DD085591DB44BC1002D3E28 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD085581DB44BC1002D3E28 /* Minecrafter.Reg.ttf */; };
+		7DD0855C1DB566E1002D3E28 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7DD0855B1DB566E1002D3E28 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7DD085501DB44043002D3E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DD085561DB44A97002D3E28 /* Minecrafter_3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter_3.ttf; sourceTree = "<group>"; };
 		7DD085581DB44BC1002D3E28 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		7DD0855B1DB566E1002D3E28 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = btn.wav; path = audio/btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,8 @@
 		7DD085431DB44043002D3E28 /* retro-space-calculator */ = {
 			isa = PBXGroup;
 			children = (
-				7DD085581DB44BC1002D3E28 /* Minecrafter.Reg.ttf */,
-				7DD085561DB44A97002D3E28 /* Minecrafter_3.ttf */,
+				7DD0855A1DB564B7002D3E28 /* Fonts */,
+				7DD0855B1DB566E1002D3E28 /* btn.wav */,
 				7DD085441DB44043002D3E28 /* AppDelegate.swift */,
 				7DD085461DB44043002D3E28 /* ViewController.swift */,
 				7DD085481DB44043002D3E28 /* Main.storyboard */,
@@ -68,6 +70,15 @@
 				7DD085501DB44043002D3E28 /* Info.plist */,
 			);
 			path = "retro-space-calculator";
+			sourceTree = "<group>";
+		};
+		7DD0855A1DB564B7002D3E28 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7DD085581DB44BC1002D3E28 /* Minecrafter.Reg.ttf */,
+				7DD085561DB44A97002D3E28 /* Minecrafter_3.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +144,7 @@
 				7DD0854F1DB44043002D3E28 /* LaunchScreen.storyboard in Resources */,
 				7DD0854C1DB44043002D3E28 /* Assets.xcassets in Resources */,
 				7DD0854A1DB44043002D3E28 /* Main.storyboard in Resources */,
+				7DD0855C1DB566E1002D3E28 /* btn.wav in Resources */,
 				7DD085571DB44A97002D3E28 /* Minecrafter_3.ttf in Resources */,
 				7DD085591DB44BC1002D3E28 /* Minecrafter.Reg.ttf in Resources */,
 			);
