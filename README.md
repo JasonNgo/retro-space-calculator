@@ -1,5 +1,7 @@
 # retro-space-calculator
 
+FOR EDUCATIONAL PURPOSES
+
 Fun little project to try out iOS 10's new StackView features
 
 Program Specifications:
